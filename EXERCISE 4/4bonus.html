@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Study Planner</title>
+    <!-- Linking this html file to an external css stylesheet file for styling. -->
+    <link rel="stylesheet" href="4bonus.css">
+</head>
+<body>
+
+    <!-- Header & Navigation bar -->
+
+    <header>
+        <nav> <!-- Using the nav tag to create a nav bar for all the nav items. -->
+            <ul> <!-- I used the website I made from chapter 2 as reference when making this nav bar.  -->
+                <li><a href="#">Home</a></li> <!-- Since this is just for a design draft, there'll be no links attached. -->
+                <li><a href="#">To-Do</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Assignments</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav_corner"> <!-- Right side of the nav bar, there's a button and a hamburger icon. -->
+            <a href="https://metaverseage.ae/" target="_blank" class="study_lab_button">STUDY LAB</a> <!-- The button links to the metaverse site. -->
+            <button class="hamburger_icon">&#9776;</button> <!-- Hamburger icon doesn't do anything as this is just a design draft. -->
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <!-- Main content will be split into two columns: In progress section and To-Do list/study session section. -->
+
+    <main>
+        <section class="in_progress">
+            <h2>In progress:</h2>
+            <div class="topic"> <!-- This block is a container that contains both the topic text and image. -->
+                <div class="topic_image">
+                    <img src="Digital forensic.jpg" alt="Digital Forensic picture"> <!-- Using an image for each topic. -->
+                </div>
+                <h3>Digital Forensic</h3> <!-- Title of the topic -->
+            </div>
+            <div class="topic"> <!-- This block is a container that contains both the topic text and image. -->
+                <div class="topic_image">
+                    <img src="web programming.jpg" alt="Web Programming pcture"> <!-- Using an image for each topic. -->
+                </div>
+                <h3>Web Programming</h3> <!-- Title of the topic -->
+            </div>
+            <div class="topic"> <!-- This block is a container that contains both the topic text and image. -->
+                <div class="topic_image">
+                    <img src="database.jpg" alt="Database picture"> <!-- Using an image for each topic. -->
+                </div>
+                <h3>Database</h3> <!-- Title of the topic -->
+            </div>
+            <div class="topic"> <!-- This block is a container that contains both the topic text and image. -->
+                <div class="topic_image">
+                    <img src="research.jpg" alt="Research picture"> <!-- Using an image for each topic. -->
+                </div>
+                <h3>Research</h3> <!-- Title of the topic -->
+            </div>
+            <div class="browse"> <!-- The browse arrow icons. They don't do anything for now since it's just a design. -->
+                <span> < </span>
+                <span> 1 </span>
+                <span> > </span>
+            </div>
+        </section>
+
+        <!-- Aside content -->
+        <!-- This represents the right section of the page where the To-Do list and Study sessions are placed. -->
+
+        <aside class="right_column">
+            <div class="to_do_list"> <!-- The container box for to do list. -->
+                <h2>To Do List:</h2>
+                <ul class="list-items"> <!-- An unordered list for my to do list. -->
+                    <li> Exercise 5 in Web programming </li>
+                    <li> Exercise 6 in Web Programming </li>
+                    <li> Read books for 30 mins </li>
+                    <li> Databases Assessment </li>
+                    <li> Digital Forensic Assessment </li>
+                </ul>
+            </div>
+            <div class="study_sessions"> <!-- The container box for study sessions. -->
+                <h2> Meeting sessions:</h2>
+                <ul class="list-items"> <!-- An unordered list for scheduled study sessions. -->
+                    <li> Meeting with FDR (4:00-6:00 )</li>
+                    <li> Meeting with the Coaches (7:00PM - 9:00PM)</li>
+                    <li> Online Games Mobile Legends (10:00 pm - 2:00am) </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <p>&copy; 2026 James Mark Rea</p> <!-- '&copy;' is an entity used to type the copyright icon. This footer defines my ownership of the website. -->
+    </footer>
+    
+</body>
+</html>

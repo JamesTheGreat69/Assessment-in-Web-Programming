@@ -1,0 +1,127 @@
+/* Make page take full height */
+html{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Use flexbox to push footer down */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    background: linear-gradient(to bottom, #26B9C8, #0457A0);
+    color: #00334e;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #FFF56C;
+    padding: 24px 40px; /* bigger padding: 24px top/bottom, 40px left/right */
+    display: flex;
+    gap: 20px; /* slightly more space between items */
+}
+
+.navbar a {
+    color: #0457A0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main text section */
+.Text {
+    text-align: center;
+    margin-top: 100px;
+    flex: 1; 
+}
+
+.Text h3 {
+    font-size: 40px;
+    color: #FFF56C;
+    text-shadow: 2px 2px #AEAD0D;
+}
+
+.Text h2 {
+    font-size: 40px;
+    color: #FFF56C;
+    text-shadow: 2px 2px #AEAD0D;
+}
+
+/* SpongeBob themed sections */
+.section {
+    padding: 70px 40px; 
+    max-width: 850px;
+    margin: 60px auto;
+    background: linear-gradient(to bottom, #fff8b0, #ffe066); 
+    border-radius: 20px;
+    text-align: center;
+    border: 4px solid #ff9900;
+    box-shadow: 0 8px 0 #cc7a00; /* cartoon shadow */
+}
+
+/* Bigger headings */
+.section h2 {
+    font-size: 38px;
+    color: #ffcc00;
+    text-shadow: 3px 3px #ff9900;
+    margin-bottom: 20px;
+}
+
+/* Bigger paragraph text */
+.section p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* Character list styling */
+.section ul {
+    list-style-position: inside;
+    padding: 0;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Space between list items */
+.section ul li {
+    margin: 10px 0;
+}
+/* Footer at bottom */
+footer {
+    background-color: #FFF56C;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+ /* Decorative bubbles */
+    .bubble {
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(2px);
+    }
+
+    .bubble:nth-child(1) {
+        width: 80px;
+        height: 80px;
+        top: 20%;
+        left: 10%;
+    }
+
+    .bubble:nth-child(2) {
+        width: 50px;
+        height: 50px;
+        bottom: 15%;
+        right: 15%;
+    }
+
+    .bubble:nth-child(3) {
+        width: 30px;
+        height: 30px;
+        top: 10%;
+        right: 25%;
+    }

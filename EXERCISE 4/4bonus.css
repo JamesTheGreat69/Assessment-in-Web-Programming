@@ -1,0 +1,169 @@
+/* Global smooth transitions */
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Header */
+
+header {
+    background-color: #8B0000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nav */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 40px;
+    display: flex;
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    color: #ff4d4d;
+}
+
+/* Right side */
+
+.nav_corner {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.study_lab_button {
+    background-color: #ffffff;
+    color: #8B0000;
+    font-weight: 600;
+    padding: 10px;
+    width: 130px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.study_lab_button:hover {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.hamburger_icon {
+    font-size: 28px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+/* Sections */
+
+.in_progress {
+    flex: 2;
+}
+
+.right_column {
+    flex: 1;
+}
+
+/* Topic Cards */
+
+.topic {
+    background-color: #5A0000;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 12px; /* updated */
+}
+
+.topic:hover {
+    background-color: #7A0000;
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* glow effect */
+}
+
+/* Images */
+
+.topic_image img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.topic h3 {
+    margin-top: 10px;
+}
+
+/* Browse */
+
+.browse {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.browse span {
+    margin-right: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Right Column */
+
+.to_do_list,
+.study_sessions {
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px; /* updated */
+}
+
+.to_do_list {
+    background-color: #6A0000;
+}
+
+.study_sessions {
+    background-color: #3A0000;
+}
+
+/* Lists */
+
+.list-items {
+    line-height: 2;
+    padding-left: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #8B0000;
+    text-align: center;
+    padding: 10px;
+}
