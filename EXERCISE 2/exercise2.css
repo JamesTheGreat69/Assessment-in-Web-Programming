@@ -119,9 +119,9 @@ footer {
     right: 15%;
 }
 
-    .bubble:nth-child(3) {
-        width: 30px;
-        height: 30px;
-        top: 10%;
-        right: 25%;
-    }
+.bubble:nth-child(3) {
+width: 30px;  
+    height: 30px;
+    top: 10%;
+    right: 25%;
+}
